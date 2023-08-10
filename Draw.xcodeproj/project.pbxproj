@@ -13,6 +13,8 @@
 		8793549F2A85207600BD4CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8793549D2A85207600BD4CC5 /* Main.storyboard */; };
 		879354A12A85207700BD4CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879354A02A85207700BD4CC5 /* Assets.xcassets */; };
 		879354A42A85207700BD4CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879354A22A85207700BD4CC5 /* LaunchScreen.storyboard */; };
+		879354AC2A8520A400BD4CC5 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879354AB2A8520A400BD4CC5 /* Line.swift */; };
+		879354AE2A8520F800BD4CC5 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879354AD2A8520F800BD4CC5 /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		879354A02A85207700BD4CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		879354A32A85207700BD4CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		879354A52A85207700BD4CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879354AB2A8520A400BD4CC5 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		879354AD2A8520F800BD4CC5 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				879354A02A85207700BD4CC5 /* Assets.xcassets */,
 				879354A22A85207700BD4CC5 /* LaunchScreen.storyboard */,
 				879354A52A85207700BD4CC5 /* Info.plist */,
+				879354AB2A8520A400BD4CC5 /* Line.swift */,
+				879354AD2A8520F800BD4CC5 /* CanvasView.swift */,
 			);
 			path = Draw;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8793549C2A85207600BD4CC5 /* ViewController.swift in Sources */,
+				879354AC2A8520A400BD4CC5 /* Line.swift in Sources */,
+				879354AE2A8520F800BD4CC5 /* CanvasView.swift in Sources */,
 				879354982A85207600BD4CC5 /* AppDelegate.swift in Sources */,
 				8793549A2A85207600BD4CC5 /* SceneDelegate.swift in Sources */,
 			);
